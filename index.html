@@ -3,10 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Тестовый проект для проверки</title>
+    <title>Итоговый проект</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Это итоговый проект <br>Чепелева Даниила!</h1>
+    <main>
+        <section class="catalog">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="filter">
+                            <div class="filter-icon">
+                                <span class="popular">💓</span>
+                            </div>
+                            <div class="filter-text">Любовь к странице</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="filter">
+                            <div class="filter-icon">
+                                <span class="high">🌻</span>
+                            </div>
+                            <div class="filter-text">Как растут дети кратко</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="filter">
+                            <div class="filter-icon">
+                                <span class="early">🌱</span>
+                            </div>
+                            <div class="filter-text">Попробуй догони</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="filter">
+                            <div class="filter-icon">
+                                <span class="light">🌞</span>
+                            </div>
+                            <div class="filter-text">Легендарная карусель</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="filter">
+                            <div class="filter-icon">
+                                <span class="rare">🚿</span>
+                            </div>
+                            <div class="filter-text">Помывка экрана</div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="list">
+                <h2>Весёлые цветочки с бутонами стоят</h2>
+                <article class="card">
+                    <img src="roses.png" alt="Розы">
+                </article>
+                <article class="card">
+                    <img src="violet.png" alt="Фиалки">
+                </article>
+                <article class="card">
+                    <img src="monstera.png" alt="Монстера">
+                </article>
+            </div>
+        </section>
+        <section class="order">
+            <form id="order-form" action="">
+                <div class="field">
+                    <input class="input" name="fullname" id="fullname" type="text" placeholder="Фамилия и имя">
+                </div>
+                <div class="field">
+                    <input class="input" name="phone" id="phone" type="text" placeholder="Телефона">
+                </div>
+                <div class="field">
+                    <input class="input" name="adress" id="adress" type="text" placeholder="Можешь не писать, узнаю по ip">
+                </div>
+                <input type="checkbox">
+                <p>Не звонить</p>
+                <input type="submit" value="Заказать" class="submit-btn">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
