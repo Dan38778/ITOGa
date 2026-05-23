@@ -18,7 +18,9 @@ body {
 ul {
     list-style: none;
 }
-
+li {
+    width: 20%;
+}
 a {
     text-decoration: none;
     color: #333;
@@ -56,7 +58,15 @@ nav ul {
 }
 
 .filter {
+    box-sizing: border-box;
     width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 100s;
+}
+.filter1 {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -154,6 +164,10 @@ nav ul {
     transform: scale(1300);
     transition: 100s;
 }
+.filter1 :hover > .popular {
+    transform: scale(1300);
+    transition: 100s;
+}
 .filter :hover > .high {
     transform: scaley(1000) perspective(1000px);
     transition: 100s;
@@ -180,4 +194,25 @@ nav ul {
 
 p {
     display: inline;
+}
+h2 {
+    display: block;
+    text-align: center;
+}
+div > header {
+    width: 100%;
+}
+.child :hover {
+    transform: scale(1300);
+    transition: 100s;
+}
+.child img{
+    transition: 10000s;
+}
+
+.child1 {
+    width: 10%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
