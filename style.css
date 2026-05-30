@@ -220,3 +220,6 @@ div > header {
     transform: translate(160000px, 16000px) rotate(5000deg);
     transition: 100s;
 }
+.hr {
+    width: 10px;
+}
